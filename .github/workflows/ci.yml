@@ -1,8 +1,0 @@
-name: CI Pipeline
-on: [push]
-jobs:
-    build:
-        runs-on: ubuntu-latent
-        steps:
-           - uses: actions/checkout@v3
-           - run: echo "Hello Github actions!"
