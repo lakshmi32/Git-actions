@@ -10,4 +10,4 @@ name: My First Github workflow
       run: |
       echo "My first github action job!"
       ls -ltra
-      cat README.md
+      
